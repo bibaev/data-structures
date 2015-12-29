@@ -88,6 +88,24 @@ namespace ds
     }
 
     template <typename Type, int ValueCount>
+    bool b_tree<Type, ValueCount>::search(Type)
+    {
+        return false;
+    }
+
+    template <typename Type, int ValueCount>
+    bool b_tree<Type, ValueCount>::remove(Type)
+    {
+        return false;
+    }
+
+    template <typename Type, int ValueCount>
+    bool b_tree<Type, ValueCount>::update(Type)
+    {
+        return false;
+    }
+
+    template <typename Type, int ValueCount>
     size_t b_tree<Type, ValueCount>::size() const
     {
         return size_;
